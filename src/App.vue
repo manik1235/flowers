@@ -6,16 +6,24 @@
       <span slot="middle">Oxygen</span>
       <span slot="bottom">O2</span>
     </Hexagon>
+    <HexagonRow>
+    </HexagonRow>
+    <HexagonGrid>
+    </HexagonGrid>
   </div>
 </template>
 
 <script>
 import Hexagon from 'vue-hexagon-grid/src/hexagon'
+import HexagonRow from 'vue-hexagon-grid/src/hexagon-row'
+import HexagonGrid from 'vue-hexagon-grid/src/hexagon-grid'
 
 export default {
   name: 'App',
   components: {
-    Hexagon
+    Hexagon,
+    HexagonRow,
+    HexagonGrid
   }
 }
 </script>
