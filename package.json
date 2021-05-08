@@ -12,7 +12,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-hexagon-grid": "https://github.com/manik1235/vue-hexagon-grid.git",
+    "vue-hexagon-grid": "https://github.com/manik1235/vue-hexagon-grid.git#prep-for-import",
     "webpack": "^4.0.0"
   },
   "devDependencies": {
