@@ -1,29 +1,16 @@
 <template>
-  <div id="app">
-    <Hexagon text="Hello World!"></Hexagon>
-    <Hexagon color="blue">
-      <span slot="top">8</span>
-      <span slot="middle">Oxygen</span>
-      <span slot="bottom">O2</span>
-    </Hexagon>
-    <HexagonRow>
-    </HexagonRow>
-    <HexagonGrid>
-    </HexagonGrid>
-  </div>
+<div id="app">
+  <Map></Map>
+</div>
 </template>
 
 <script>
-import Hexagon from 'vue-hexagon-grid/src/hexagon'
-import HexagonRow from 'vue-hexagon-grid/src/hexagon-row'
-import HexagonGrid from 'vue-hexagon-grid/src/hexagon-grid'
+import Map from './components/Map.vue'
 
 export default {
   name: 'App',
   components: {
-    Hexagon,
-    HexagonRow,
-    HexagonGrid
+    Map
   }
 }
 </script>
