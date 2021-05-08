@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vue-hexagon-grid text="Hello World!"></vue-hexagon-grid>
   </div>
 </template>
 
